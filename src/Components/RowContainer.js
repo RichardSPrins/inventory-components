@@ -1,8 +1,12 @@
 import React from 'react'
 
-const RowContainer = () => {
+const RowContainer = ({ rowData }) => {
   return (
-    <div>RowContainer</div>
+    <div>
+      <p>Name: {rowData.name}</p>
+      <p>Date: {rowData.date}</p>
+      <p>Description: {rowData.description}</p>
+    </div>
   )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import MaterialTable from 'material-table'
 
-const ItemList = () => {
+const ItemList = ({ columns, data, title }) => {
   return (
-    <div>ItemList</div>
+    <MaterialTable columns={columns} data={data} title={title} />
   )
 }
 

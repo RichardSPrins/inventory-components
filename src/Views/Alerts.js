@@ -1,8 +1,11 @@
 import React from 'react'
+import RowContainer from '../Components/RowContainer'
 
-const Alerts = () => {
+const Alerts = (props) => {
   return (
-    <div>Alerts</div>
+    <div>
+      <RowContainer />
+    </div>
   )
 }
 
